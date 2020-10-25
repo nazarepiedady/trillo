@@ -1,0 +1,36 @@
+{
+  "name": "trillo",
+  "version": "1.0.0",
+  "description": "a web application to help users find the best hotels bedrooms, flight,rental car and tours around world in the best prices.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-sass": "sass assets/styles/sass/main.scss assets/styles/styles.min.css --style=compressed",
+    "dev-sass": "sass assets/styles/sass/main.scss assets/styles/styles.css --watch",
+    "dev-server": "live-server .",
+    "start": "npm-run-all --parallel dev-sass dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nazarepiedady/trillo.git"
+  },
+  "keywords": [
+    "tours",
+    "rental",
+    "car",
+    "flight",
+    "hotels",
+    "bedrooms"
+  ],
+  "author": "Nazaré da Piedade",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/nazarepiedady/trillo/issues"
+  },
+  "homepage": "https://github.com/nazarepiedady/trillo#readme",
+  "devDependecies": {
+    "sass": "^1.26.11",
+    "npm-run-all": "^4.1.5",
+    "live-server": "^1.2.1"
+  }
+}
