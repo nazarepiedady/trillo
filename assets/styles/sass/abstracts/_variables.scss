@@ -18,3 +18,10 @@ $light-shadow: 0 2rem 5rem rgba(0, 0, 0, .06);
 
 // BORDERS
 $light-border: .1rem solid $color-grey--light-2;
+
+// BREAKPOINTS
+$bp-smallest: 500px;
+$bp-small:    600px;
+$bp-medium:   900px;
+$bp-large:    1100px;
+$bp-largest:  1200px;
