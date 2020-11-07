@@ -292,4 +292,9 @@ body {
   }
 }
 
+.hotel-view {
+  flex: 1;
+  background-color: #fff;
+}
+
 /*# sourceMappingURL=main.css.map */
