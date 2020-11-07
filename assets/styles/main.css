@@ -42,6 +42,15 @@ body {
   }
 }
 
+.content {
+  display: flex;
+}
+@media only screen and (max-width: 900px) {
+  .content {
+    flex-direction: column;
+  }
+}
+
 .container {
   max-width: 120rem;
   margin: 8rem auto;
