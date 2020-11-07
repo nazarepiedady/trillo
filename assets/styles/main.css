@@ -126,6 +126,77 @@ body {
   display: block;
 }
 
+.overview {
+  display: flex;
+  align-items: center;
+  border-bottom: 0.1rem solid #f4f2f2;
+}
+.overview__heading {
+  font-weight: 300;
+  font-size: 2.25rem;
+  padding: 1.5rem 3rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 600px) {
+  .overview__heading {
+    font-size: 1.8rem;
+    padding: 1.25rem 2rem;
+  }
+}
+.overview__stars {
+  display: flex;
+  margin-right: auto;
+}
+.overview__icon-star, .overview__icon-location {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: #eb2f64;
+}
+.overview__location {
+  display: flex;
+  font-size: 1.2rem;
+  align-items: center;
+}
+.overview__icon-location {
+  margin-right: 0.5rem;
+}
+.overview__rating {
+  color: #fff;
+  margin-left: 3rem;
+  padding: 0 2.25rem;
+  align-self: stretch;
+  background-color: #eb2f64;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+@media only screen and (max-width: 600px) {
+  .overview__rating {
+    padding: 0 1.5rem;
+  }
+}
+.overview__rating-average {
+  font-weight: 300;
+  font-size: 2.25rem;
+  margin-bottom: -0.3rem;
+}
+@media only screen and (max-width: 600px) {
+  .overview__rating-average {
+    font-size: 1.8rem;
+  }
+}
+.overview__rating-count {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 600px) {
+  .overview__rating-count {
+    font-size: 0.5rem;
+  }
+}
+
 .side-nav {
   font-size: 1.4rem;
   margin-top: 3.5rem;
