@@ -26,6 +26,11 @@ body {
   min-height: 100vh;
 }
 
+.logo {
+  height: 3.25rem;
+  margin-left: 2rem;
+}
+
 .header {
   height: 7rem;
   font-size: 1.4rem;
