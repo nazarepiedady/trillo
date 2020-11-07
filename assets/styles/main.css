@@ -118,6 +118,14 @@ body {
   fill: #999999;
 }
 
+.gallery {
+  display: flex;
+}
+.gallery__photo {
+  width: 100%;
+  display: block;
+}
+
 .side-nav {
   font-size: 1.4rem;
   margin-top: 3.5rem;
