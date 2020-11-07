@@ -31,6 +31,18 @@ body {
   margin-left: 2rem;
 }
 
+.legal {
+  padding: 2.5rem;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #cccccc;
+}
+@media only screen and (max-width: 900px) {
+  .legal {
+    display: none;
+  }
+}
+
 .search {
   flex: 0 0 40%;
   display: flex;

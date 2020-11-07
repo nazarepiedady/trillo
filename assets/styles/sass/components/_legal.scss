@@ -1,0 +1,10 @@
+.legal {
+  padding: 2.5rem;
+  font-size: 1.2rem;
+  text-align: center;
+  color: $color-grey--light-4;
+
+  @media only screen and (max-width: $bp-medium) {
+    display: none;
+  }
+}
