@@ -198,6 +198,29 @@ body {
   display: block;
 }
 
+.recommend {
+  font-size: 1.3rem;
+  color: #999999;
+  display: flex;
+  align-items: center;
+}
+.recommend__count {
+  margin-right: auto;
+}
+.recommend__friends {
+  display: flex;
+}
+.recommend__photo {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  box-sizing: content-box;
+  border: 0.3rem solid #fff;
+}
+.recommend__photo:not(:last-child) {
+  margin-right: -2rem;
+}
+
 .overview {
   display: flex;
   align-items: center;
