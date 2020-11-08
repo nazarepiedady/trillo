@@ -363,6 +363,24 @@ body {
   margin-right: 1rem;
 }
 
+.detail {
+  display: flex;
+  padding: 4.5rem;
+  font-size: 1.4rem;
+  border-bottom: 0.1rem solid #f4f2f2;
+  background-color: #faf9f9;
+}
+@media only screen and (max-width: 900px) {
+  .detail {
+    padding: 3rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .detail {
+    flex-direction: column;
+  }
+}
+
 .header {
   height: 7rem;
   font-size: 1.4rem;

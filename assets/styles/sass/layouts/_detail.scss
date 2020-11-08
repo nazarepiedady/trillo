@@ -1,0 +1,15 @@
+.detail {
+  display: flex;
+  padding: 4.5rem;
+  font-size: 1.4rem;
+  border-bottom: $light-border;
+  background-color: $color-grey--light-1;
+
+  @media only screen and (max-width: $bp-medium) {
+    padding: 3rem;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    flex-direction: column;
+  }
+}
