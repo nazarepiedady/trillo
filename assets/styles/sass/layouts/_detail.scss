@@ -12,4 +12,8 @@
   @media only screen and (max-width: $bp-small) {
     flex-direction: column;
   }
+
+  @media only screen and (max-width: $bp-smallest) {
+    font-size: 1.55rem;
+  }
 }

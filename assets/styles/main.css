@@ -59,6 +59,11 @@ body {
   flex: 0 0 50%;
   margin-bottom: 0.7rem;
 }
+@media only screen and (max-width: 500px) {
+  .list__item {
+    flex: 0 0 100%;
+  }
+}
 .list__item::before {
   width: 1rem;
   content: "";
@@ -569,6 +574,11 @@ body {
 @media only screen and (max-width: 600px) {
   .detail {
     flex-direction: column;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .detail {
+    font-size: 1.55rem;
   }
 }
 
