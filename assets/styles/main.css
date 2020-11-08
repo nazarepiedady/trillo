@@ -434,4 +434,24 @@ body {
   background-color: #fff;
 }
 
+.description {
+  flex: 0 0 60%;
+  padding: 3rem;
+  margin-right: 4.5rem;
+  background-color: #fff;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.06);
+}
+@media only screen and (max-width: 900px) {
+  .description {
+    padding: 2rem;
+    margin-right: 3rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .description {
+    margin-right: 0;
+    margin-bottom: 3rem;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
