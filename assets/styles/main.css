@@ -335,6 +335,11 @@ body {
   margin-bottom: 2.5rem;
   text-transform: uppercase;
 }
+@media only screen and (max-width: 600px) {
+  .cta__book-now {
+    font-size: 1.6rem;
+  }
+}
 
 .overview {
   display: flex;
@@ -354,9 +359,20 @@ body {
     padding: 1.25rem 2rem;
   }
 }
+@media only screen and (max-width: 500px) {
+  .overview__heading {
+    font-size: 1.6rem;
+    padding: 1.25rem 1rem;
+  }
+}
 .overview__stars {
   display: flex;
   margin-right: auto;
+}
+@media only screen and (max-width: 500px) {
+  .overview__stars {
+    margin-right: 0.8rem;
+  }
 }
 .overview__icon-star, .overview__icon-location {
   width: 1.5rem;
@@ -370,6 +386,11 @@ body {
 }
 .overview__icon-location {
   margin-right: 0.5rem;
+}
+@media only screen and (max-width: 500px) {
+  .overview__icon-location {
+    margin-right: 0.2rem;
+  }
 }
 .overview__rating {
   color: #fff;
