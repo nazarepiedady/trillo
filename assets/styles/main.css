@@ -371,7 +371,7 @@ body {
 }
 @media only screen and (max-width: 500px) {
   .overview__stars {
-    margin-right: 0.8rem;
+    margin-left: 1.6rem;
   }
 }
 .overview__icon-star, .overview__icon-location {
@@ -384,13 +384,13 @@ body {
   font-size: 1.2rem;
   align-items: center;
 }
+@media only screen and (max-width: 500px) {
+  .overview__location {
+    margin-left: 1rem;
+  }
+}
 .overview__icon-location {
   margin-right: 0.5rem;
-}
-@media only screen and (max-width: 500px) {
-  .overview__icon-location {
-    margin-right: 0.2rem;
-  }
 }
 .overview__rating {
   color: #fff;

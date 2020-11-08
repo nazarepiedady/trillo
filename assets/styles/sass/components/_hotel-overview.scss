@@ -26,7 +26,7 @@
     margin-right: auto;
 
     @media only screen and (max-width: $bp-smallest) {
-      margin-right: .8rem;
+      margin-left: 1.6rem;
     }
   }
 
@@ -42,14 +42,14 @@
     display: flex;
     font-size: 1.2rem;
     align-items: center;
+
+    @media only screen and (max-width: $bp-smallest) {
+      margin-left: 1rem;
+    }
   }
 
   &__icon-location {
     margin-right: .5rem;
-
-    @media only screen and (max-width: $bp-smallest) {
-      margin-right: .2rem;
-    }
   }
 
   &__rating {
