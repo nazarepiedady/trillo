@@ -45,6 +45,38 @@ body {
   margin-left: 2rem;
 }
 
+.list {
+  margin: 3rem 0;
+  padding: 3rem 0;
+  list-style-type: none;
+  border-top: 0.1rem solid #f4f2f2;
+  border-bottom: 0.1rem solid #f4f2f2;
+  display: flex;
+  flex-wrap: wrap;
+}
+.list__item {
+  flex: 0 0 50%;
+  margin-bottom: 0.7rem;
+}
+.list__item::before {
+  width: 1rem;
+  content: "";
+  height: 1rem;
+  margin-right: 0.7rem;
+  display: inline-block;
+  background-size: cover;
+  background-image: url("../images/chevron-thin-right.svg");
+}
+@supports (mask-image: url()) {
+  .list__item::before {
+    mask-size: cover;
+    background-image: none;
+    background-size: initial;
+    background-color: #eb2f64;
+    mask-image: url("../images/chevron-thin-right.svg");
+  }
+}
+
 .legal {
   padding: 2.5rem;
   font-size: 1.2rem;
