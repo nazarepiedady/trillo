@@ -116,6 +116,47 @@ body {
   animation: pulsate 1s infinite;
 }
 
+.button {
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  overflow: hidden;
+  font-weight: 300;
+  font-size: 1.5rem;
+  position: relative;
+  border-radius: 10rem;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, #ff3366, #ba265d);
+}
+.button__visible, .button__invisible {
+  width: 100%;
+  height: 100%;
+  transition: all 0.2s;
+  display: inline-block;
+}
+.button__visible {
+  padding: 2rem 7.5rem;
+}
+.button__invisble {
+  left: 0;
+  top: -100%;
+  padding: 2rem 0;
+  position: absolute;
+}
+.button:hover {
+  background-image: linear-gradient(to left, #ff3366, #ba265d);
+}
+.button:hover .button__visible {
+  transform: translateY(100%);
+}
+.button:hover .button__invisible {
+  top: 0;
+}
+.button:focus {
+  outline: none;
+  animation: pulsate 1s infinite;
+}
+
 .search {
   flex: 0 0 40%;
   display: flex;
