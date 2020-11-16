@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-sass": "sass assets/styles/sass/main.scss assets/styles/styles.min.css --style=compressed",
-    "dev-sass": "sass assets/styles/sass/main.scss assets/styles/styles.css --watch",
+    "build-sass": "sass assets/styles/sass/main.scss assets/styles/main.min.css --style=compressed",
+    "dev-sass": "sass assets/styles/sass/main.scss assets/styles/main.css --watch",
     "dev-server": "live-server .",
     "start": "npm-run-all --parallel dev-sass dev-server"
   },
